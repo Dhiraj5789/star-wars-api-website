@@ -32,6 +32,11 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@fontsource/mulish@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/mulish/-/mulish-4.5.12.tgz#6e309b49e6c5c4defc87edb803308337b39ec53b"
+  integrity sha512-rlM4VI9bvS9rxf1LxiSTmnFB7Pjca2NWnWxb/6L3XTWsRJJbc2PN5jenVDJtt/WEVSz18ZdDtYzE/xb1JUYSWQ==
+
 "@humanwhocodes/config-array@^0.9.2":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.9.5.tgz#2cbaf9a89460da24b5ca6531b8bbfc23e1df50c7"
