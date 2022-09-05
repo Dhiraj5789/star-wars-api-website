@@ -15,8 +15,36 @@ const Home: NextPage = (props) => {
   const { characters: sl }: any = props;
   return (
     <>
-      <h1><Image width={450} height={100} src={"https://fontmeme.com/permalink/220904/f7682945b794f0691beb399161c6c4b8.png"} alt={"title"} /></h1>
+      <header><Image width={450} height={100} src={"https://fontmeme.com/permalink/220904/f7682945b794f0691beb399161c6c4b8.png"} alt={"title"} /></header>
       <div className={cardsContainer}>
+        {sl.map((person: any) => (
+          <div key={person.name} className={cardLayout}>
+            <div className={imageContainer}>
+              <Image
+                src={person.image}
+                width={100}
+                height={100}
+                alt={person.name}
+                layout="responsive"
+              />
+            </div>
+            <h2>{person.name}</h2>
+          </div>
+        ))}
+        {sl.map((person: any) => (
+          <div key={person.name} className={cardLayout}>
+            <div className={imageContainer}>
+              <Image
+                src={person.image}
+                width={100}
+                height={100}
+                alt={person.name}
+                layout="responsive"
+              />
+            </div>
+            <h2>{person.name}</h2>
+          </div>
+        ))}
         {sl.map((person: any) => (
           <div key={person.name} className={cardLayout}>
             <div className={imageContainer}>

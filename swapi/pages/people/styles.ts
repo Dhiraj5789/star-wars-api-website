@@ -1,7 +1,9 @@
 import {css} from "@emotion/css";
 
 export const cardsContainer = css`
-display:flex;
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 `
 export const imageContainer = css`
 width: 100%;
@@ -17,7 +19,6 @@ display: flex;
 flex-direction: row;
 margin: 1rem;
 width: 18rem;
-height: 18rem;
 background-color: black;
 border-radius: 0.5rem;
 flex-direction: column;
@@ -27,7 +28,9 @@ flex-direction: column;
     transition: all .3s cubic-bezier(0,0,.5,1);
 }
 h2{
-    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
     font-variant: small-caps;
+  letter-spacing: 3px;
 }
 `;
